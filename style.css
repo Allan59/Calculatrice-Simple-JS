@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator{
+    height: 500px;
+    width: 300px;
+    background-color: black;
+    border-radius: 15px;
+}
+
+.screen{
+    height: 150px;
+}
+
+.screen input{
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border: none;
+    background-color: grey;
+    font-size: 3rem;
+    color: white;
+    text-align: right;
+}
+
+.screen input:focus{
+    outline: none;
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    padding: 25px;
+}
+
+.button{
+    width: 50px;
+    height: 50px;
+    border-radius: 2px;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.equal{
+    width: 50px;
+    height: 50px;
+    border-radius: 2px;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.reset{
+    width: 50px;
+    height: 50px;
+    border-radius: 2px;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.orange{
+    background-color: orange;
+}
+
+.white{
+    background-color: #fff;
+    color: black;
+}
+
+.green{
+    background-color: green;
+}
+
+.red{
+    background-color: red;
+}
